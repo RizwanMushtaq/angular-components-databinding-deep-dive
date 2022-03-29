@@ -35,4 +35,8 @@ export class AppComponent {
       content: bluePrintData.bluePrintContent,
     });
   }
+
+  onDestroyFirst() {
+    this.serverElements.splice(0, 1);
+  }
 }
